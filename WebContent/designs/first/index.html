@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- 新 Bootstrap 核心 CSS 文件 -->
+<link rel="stylesheet"
+	href="http://cdn.bootcss.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<!-- 可选的Bootstrap主题文件（一般不用引入） -->
+<link rel="stylesheet"
+	href="http://cdn.bootcss.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="css/style.css">
+<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript"
+	src="http://api.map.baidu.com/api?v=1.5&ak=71eb1b504f214932e4e623db3b21d2d8"></script>
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="http://cdn.bootcss.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="js/app.js"></script>
+<meta charset="UTF-8">
+<title>上海双隆投资有限公司</title>
+</head>
+<body>
+	<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse"
+					data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span> <span
+						class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+				<img src="img/logo.png">
+
+
+			</div>
+
+			<div class="navbar-collapse collapse">
+
+				<form class="navbar-form navbar-right" role="form">
+
+					<a class="btn btn-primary btn-lg" href="#contact-us" role="button">联系我们</a>
+
+				</form>
+			</div>
+			<!--/.navbar-collapse -->
+		</div>
+	</div>
+
+	<div class="jumbotron">
+		<div class="container headshow">
+			<h1>
+				<strong>欢迎访问双隆投资</strong>
+			</h1>
+			<p id="about-us-div">明阴阳之机，跃与风云之堂。</p>
+			<p>双天地之和，报以方圆之隆.</p>
+
+		</div>
+	</div>
+	<div id="company-directory" class="navbar navbar-inverse"
+		data-spy="affix" role="navigation">
+		<div class="container">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="#about-us-div">关于我们</a></li>
+				<li><a href="#product-list">产品目录</a></li>
+				<li><a href="#product-info">双隆咨询</a></li>
+				<li><a href="#cooperation">寻求合作</a></li>
+				<li><a href="#contact-us">联系我们</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="container main-content">
+		<div class="row">
+			<div class="col-md-12">
+				<h2>关于我们</h2>
+				<ul class="nav nav-tabs" role="tablist" id="about-us">
+					<li class="active"><a href="#company-info">公司概括</a></li>
+					<li><a href="#company-structure">组织架构</a></li>
+					<li><a href="#thinking-way">投资理念</a></li>
+					<li><a href="#company-culture">公司文化</a></li>
+					
+				</ul>
+				<div class="tab-content">
+					<div class="tab-pane active" id="company-info">
+						<div class="bs-callout bs-callout-warning">
+
+							<p class="company-text">
+								双隆投资自2007年2月成立伊始，就瞄准了市场中性套利和数量化策略交易，并充分发挥和利用公司股东在商品期货领域的成功经验和人脉资源，广纳贤才，加大研发投入。
+								经过几年孜孜不倦的探索，双隆投资已经成为一个融合了建立在对本地金融市场理解基础上的模型经验和引入西方投资和风险管理理念及流程的先进机构，双隆投资立足于中国金融市场的实际情况，依靠现代金融学理论，遵从市场中性原则，辅之以完全自主开发的程序化交易系统，以金融结构化产品和金融衍生产品为主要交易对象，从事以套利交易和统计套利交易为主的市场中性型投资业务，在中国率先倡导了一种全新的投资理念和盈利模式，并已经成为行业的先驱者和领导者。
+								回顾5年多来的发展历程，双隆投资已经将自己的研发成果应用于投资交易领域，取得了不俗的业绩。尤其是股指期货推出以来，管理的资金规模出现较大幅度增长，
+								目前的管理规模约6个多亿元，年化投资收益率达到40%。双隆投资的投资交易具有可观稳定投资回报、极低下侧风险和绝对市场中性的特点。
+								随着中国金融市场的发展，结构化金融产品和金融衍生品将越来越丰富，双隆投资的竞争优势将更加明显，双隆正阔步向着更加宏伟的目标迈进。</p>
+						</div>
+
+					</div>
+					<div class="tab-pane" id="company-structure">
+						<img src="img/company-structure.png">
+					</div>
+					<div class="tab-pane" id="thinking-way">
+						<p class="company-text">
+							量化投资在国外有几十年的发展历史，已成为全球基金业重要的投资方法之一。量化投资基于科学的知识和严密的逻辑，同时利用数量化的统计方法对各种与市场运行相关的数据进行分析，构建相应的数据模型，并利用计算机程序实现投资策略的一种投资方式。
+							近几年，量化投资开始风靡国内。尤其是在股指期货推出以后，量化策略以其高回报率以及稳定性吸引越来越多投资者。如果把传统经验式投资方式比作“中医”，讲求市场经验和主观判断，那么量化投资就可以比作“西医”，更讲究用科学的方法利用各类市场数据进行定时定量分析和处理。
+							国内量化投资总体上还属于起步阶段，还有很长的路要走。正因为如此，国内的量化投资还是一片“蓝海”，值得期待。上海双隆投资顺应趋势，于量化投资在国内刚起步时就抓住机会，专注于这一新兴投资方式。目前已完全自成体系，拥有一支理工科背景的博士、硕士等高学历人才组成的研发、交易团队以及一支行业经验丰富的交易系统开发和维护团队。
+							上海双隆投资是国内最早一批专注于量化投资的机构，我们始终保持多策略、多市场、多品种的多样化分散投资优势，并根据市场的演化动态调整投资策略。双隆自主研发的交易系统保证我们可以更加高效地发挥策略研发上的优势。
+						</p>
+					</div>
+					<div class="tab-pane" id="company-culture">
+
+						<div id="myCarousel" class="carousel slide" data-ride="carousel">
+							<!-- Indicators -->
+							<ol class="carousel-indicators">
+								<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+								<li data-target="#myCarousel" data-slide-to="1"></li>
+								<li data-target="#myCarousel" data-slide-to="2"></li>
+							</ol>
+							<div class="carousel-inner">
+								<div class="item active">
+									<img src="img/1.png">
+
+								</div>
+								<div class="item">
+									<img src="img/2.png">
+
+								</div>
+								<div class="item">
+									<img src="img/3.png">
+
+								</div>
+							</div>
+							<a class="left carousel-control" href="#myCarousel" role="button"
+								data-slide="prev"><span
+								class="glyphicon glyphicon-chevron-left"></span></a> <a
+								class="right carousel-control" href="#myCarousel" role="button"
+								data-slide="next"><span
+								class="glyphicon glyphicon-chevron-right"></span></a>
+						</div>
+
+
+
+					</div>
+				</div>
+				<div class="col-md-12" id="product-list">
+					<h2>产品列表</h2>
+					<p>Donec id elit non mi porta gravida at eget metus. Fusce
+						dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
+						ut fermentum massa justo sit amet risus. Etiam porta sem malesuada
+						magna mollis euismod. Donec sed odio dui.</p>
+					<p>
+						<a class="btn btn-default" href="#" role="button">View details
+							&raquo;</a>
+					</p>
+				</div>
+				<div class="col-md-12" id="product-info">
+					<h2>双隆咨询</h2>
+					<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis
+						in, egestas eget quam. Vestibulum id ligula porta felis euismod
+						semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris
+						condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+					<p>
+						<a class="btn btn-default" href="#" role="button">View details
+							&raquo;</a>
+					</p>
+				</div>
+				<div class="col-md-12" id="cooperation">
+					<h2>寻求合作</h2>
+					<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis
+						in, egestas eget quam. Vestibulum id ligula porta felis euismod
+						semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris
+						condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+					<p>
+						<a class="btn btn-default" href="#" role="button">View details
+							&raquo;</a>
+					</p>
+				</div>
+				<div class="col-md-12" id="contact-us">
+					<h2>联系我们</h2>
+
+					<div class="text-in-contact">
+						<p>地址：上海市浦东新区竹林路101号陆家嘴基金大厦1604室</p>
+						<p>邮编：200122</p>
+						<p>总机：021-68758628、68751106、68753522、68753711</p>
+						<p>传真：021-68758819</p>
+						<p>邮箱：service@solon.cn</p>
+						<div id="map-container" class="map"></div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+
+		<footer>
+			<p>设计&开发:<mail>hopeztm@163.com<mail></p>
+		</footer>
+	</div>
+</body>
+</html>
